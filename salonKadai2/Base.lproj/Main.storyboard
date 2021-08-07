@@ -50,7 +50,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JWj-r4-VhF">
-                                <rect key="frame" x="34" y="287" width="126" height="43"/>
+                                <rect key="frame" x="34" y="287" width="265" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -61,10 +61,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="TF1" destination="TZT-rT-t82" id="i9l-iE-ZFg"/>
-                        <outlet property="TF2" destination="DeJ-mN-PaX" id="G8h-36-NEb"/>
-                        <outlet property="TL" destination="JWj-r4-VhF" id="5py-jH-vIU"/>
+                        <outlet property="number1TextField" destination="TZT-rT-t82" id="Mcr-oa-2Dq"/>
+                        <outlet property="number2TextField" destination="DeJ-mN-PaX" id="iqU-Ha-h73"/>
                         <outlet property="segmentContoroll" destination="mqu-5v-c8y" id="dXN-ax-vsy"/>
+                        <outlet property="textLabel" destination="JWj-r4-VhF" id="fkn-9n-gDo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

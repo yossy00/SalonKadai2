@@ -9,23 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var TF1: UITextField!
-    @IBOutlet weak var TF2: UITextField!
-    @IBOutlet weak var TL: UILabel!
+  
     @IBOutlet weak var segmentContoroll: UISegmentedControl!
+    @IBOutlet weak var number1TextField: UITextField!
+    @IBOutlet weak var number2TextField: UITextField!
+    @IBOutlet weak var textLabel: UILabel!
     
-    var result = Double()
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
-   
+    
     @IBAction func resultButton(_ sender: Any) {
         
-        let num1 = Double(TF1.text ?? "") ?? 0.0
-        let num2 = Double(TF2.text ?? "") ?? 0.0
+        let num1 = Double(number1TextField.text ?? "") ?? 0.0
+        let num2 = Double(number2TextField.text ?? "") ?? 0.0
         
         var result:String {
             
@@ -56,7 +50,7 @@ class ViewController: UIViewController {
           
             
         }
-        TL.text = result
+        textLabel.text = result
         
     }
     
